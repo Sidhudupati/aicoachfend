@@ -54,7 +54,7 @@ const Practice = () => {
     setLoading(true);
 
     try {
-      const res = await fetch("https://aicoachb-1.onrender.com", {
+      const res = await fetch("https://aicoachb-1.onrender.com/analyze_video", {
         method: "POST",
         body: formData,
       });
